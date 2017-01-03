@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>测试chrome插件</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 520px;
+            height: 270px;
+        }
+
+        table {
+            font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+            font-size: 12px;
+            width: 480px;
+            text-align: left;
+            border-collapse: collapse;
+            border: 1px solid #69c;
+            margin: 20px;
+            cursor: default;
+
+        }
+
+        table th {
+            font-weight: normal;
+            font-size: 14px;
+            color: #039;
+            border-bottom: 1px dashed #69c;
+            padding: 12px 17px;
+            white-space: nowrap;
+        }
+
+        table td {
+            color: #669;
+            padding: 7px 17px;
+            white-space: nowrap;
+        }
+
+        table tbody tr:hover td {
+            color: #339;
+            background: #d0dafd;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <table class="clinic-table">
+        <tr>
+            <th>角色</th>
+        </tr>
+        <tr>
+            <td id="role1">超级管理员</td>
+        </tr>
+        <tr>
+            <td id="role2">品牌管理员</td>
+        </tr>
+        <tr>
+            <td id="role3">诊所管理员</td>
+        </tr>
+        <tr>
+            <td id="role4">市场人员</td>
+        </tr>
+        <tr>
+            <td id="role5">医生</td>
+        </tr>
+        <tr>
+            <td id="role6">前台</td>
+        </tr>
+        <tr>
+            <td id="role7">财务</td>
+        </tr>
+        <tr>
+            <td id="role8">咨询师</td>
+        </tr>
+    </table>
+</div>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
